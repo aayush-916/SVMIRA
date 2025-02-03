@@ -108,10 +108,10 @@ li {
   gap: 20px;
 }
 .mna{
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-size: 16px;
-  height: 280px;
+  height: 300px;
   transition: all 0.3s ease;
   z-index: 110;
 }
@@ -359,22 +359,22 @@ li {
 @media (max-width: 480px) {
   /* Further reduce font size for mobile screens */
   .main-heading {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .highlight {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .sub-heading {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   /* Adjust margins and padding */
   .content {
     padding: 15px;
-    width: 80vw;
-    top: 50%;
+    width: 90vw;
+    top: 40%;
     
   }
 
