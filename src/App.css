@@ -288,6 +288,8 @@ li {
 }
 
 
+
+
 /* Ensure the content is centered */
 .content {
   position: absolute;
@@ -503,52 +505,14 @@ li {
   font-family: emoji;
 }
 
-/* Features Grid */
-.features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+.about_img{
+  width: 80vw;
+  height: 400px;
 }
-
-.feature {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 230px;
-  /* transition: transform 0.3s ease-in-out; */
-}
-
-.feature:hover {
-  transform: translateY(-5px);
-}
-
-.feature h3 {
-  font-size: 20px;
-  margin: 10px 0;
-  color: #333;
-}
-
-.feature p {
-  font-size: 14px;
-  color: #666;
-}
-
-/* Icons */
-.icon {
-  color: #fb643f;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .features {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .feature {
-    width: 80%;
+@media (max-width: 500px) {
+  .about_img{
+    width: 80vw;
+    height: 200px;
   }
 }
 
@@ -714,6 +678,82 @@ li {
 /* Responsive */
 @media (max-width: 768px) {
   .process-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/******************** Why CHoose Us ******************/
+
+/* Why Choose Us Section */
+.choose-section {
+  background: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.choose-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.choose-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fb643f;
+}
+
+.choose-description {
+  font-size: 18px;
+  color: #555;
+  margin: 15px 0 40px;
+}
+
+/* Grid Layout */
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Choose Item */
+.choose-item {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.choose-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Icons */
+.choose-icon {
+  font-size: 50px;
+  color: #3fbffb;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.choose-item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.choose-item p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .choose-grid {
     grid-template-columns: 1fr;
   }
 }

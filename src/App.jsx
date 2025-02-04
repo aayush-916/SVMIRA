@@ -4,6 +4,7 @@ import './App.css'
 import OurProcess from './OurProcess'
 import OurServices from './OurServices'
 import Root from './Root'
+import WhyChooseUs from './whyChooseUs'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <OurServices/>
       <About/>
       <OurProcess/>
+      <WhyChooseUs/>
     </>
   )
 }
