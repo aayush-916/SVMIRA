@@ -21,15 +21,15 @@ body{
   display: flex;
   width: 100%;
   height: 61px;
-  background-color: black;
+  background-color: white;
   transition: all 0.3s ease;
-  color: white;
+  color: black;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   position: fixed;
   z-index: 20;
 }
 a{
-  color: white;
+  color: black;
   text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
@@ -38,7 +38,7 @@ a{
 .brand{
   margin-top: 2px;
   margin-left: 5rem;
-  color: black;
+  color: white;
   width: 25rem;
   height: 10rem;
   position: relative;
@@ -108,8 +108,8 @@ li {
   gap: 20px;
 }
 .mna{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 16px;
   height: 300px;
   transition: all 0.3s ease;
@@ -124,7 +124,7 @@ li {
   .brand{
     margin-top: 2px;
     margin-left: 1rem;
-    color: white;
+    color: black;
     width: 25rem;
     height: 12rem;
     position: relative;
@@ -186,7 +186,7 @@ li {
     height: 20px;
   }
   .menu:hover{
-    color: rgb(108, 96, 96);
+    color: rgb(0, 0, 0);
   }
   .ull{
     display: none;
@@ -270,7 +270,7 @@ li {
 .video-background {
   position: relative;
   width: 100%;
-  height: 90vh; /* Fullscreen height */
+  height: 94vh; /* Fullscreen height */
   overflow: hidden; /* Hide any overflowed content */
   top: 60px;
 }
@@ -500,6 +500,7 @@ li {
   font-size: 18px;
   color: #555;
   margin: 15px 0 40px;
+  font-family: emoji;
 }
 
 /* Features Grid */
