@@ -470,3 +470,250 @@ li {
     top: 30px;
   }
 }
+
+
+/* ************************About css ***********/
+
+/* General Styles */
+
+.about-us {
+  background: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Heading Styles */
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* Description */
+.description {
+  font-size: 18px;
+  color: #555;
+  margin: 15px 0 40px;
+}
+
+/* Features Grid */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 230px;
+  /* transition: transform 0.3s ease-in-out; */
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Icons */
+.icon {
+  color: #fb643f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 80%;
+  }
+}
+
+
+/********************* OurServices *********************/
+
+/* Services Section */
+.services-section {
+  background: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.services-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.services-description {
+  font-size: 18px;
+  color: #555;
+  margin: 15px 0 40px;
+}
+
+/* Grid Layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Service Card */
+.service-card {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Service Image */
+.service-image {
+  width: 100%;
+  height: 180px; /* Fixed height */
+  object-fit: cover; /* Ensures all images look the same size */
+  border-radius: 8px;
+}
+
+/* Title & Description */
+.service-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Inquiry Button */
+.services-button {
+  margin-top: 30px;
+  padding: 4px 22px;
+  font-size: 18px;
+  color: white;
+  background: #fb643f;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.services-button:hover {
+  background: #fb643f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/************************ Our Process *****************/
+
+/* Process Section */
+.process-section {
+  background: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.process-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.process-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fb643f;
+}
+
+.process-description {
+  font-size: 18px;
+  color: #555;
+  margin: 15px 0 40px;
+}
+
+/* Grid Layout */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Process Step */
+.process-step {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.process-step:hover {
+  transform: translateY(-5px);
+}
+
+/* Icons */
+.process-icon {
+  font-size: 50px;
+  color: #e6402a;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.process-step h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
