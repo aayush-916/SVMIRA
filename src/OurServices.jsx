@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import BookingModal from "./BookingModal";
 import { useInView } from "react-intersection-observer";
 import "./App.css"; // Using the same CSS file
 
@@ -8,6 +10,7 @@ const ServiceCard = ({ image, title, description }) => {
     triggerOnce: false,
     threshold: 0.2,
   });
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <motion.div
@@ -17,11 +20,13 @@ const ServiceCard = ({ image, title, description }) => {
       animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.6 }}
     >
+      <BookingModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
       <img src={image} alt={title} className="service-image" />
       <h3>{title}</h3>
       <p>{description}</p>
       <motion.button
-          className="services-button"
+          className="services-button open-modal-btn"
+          onClick={() => setIsModalOpen(true)}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -32,6 +37,7 @@ const ServiceCard = ({ image, title, description }) => {
 };
 
 const OurServices = () => {
+  
   return (
     <section className="services-section">
       <div className="services-container">

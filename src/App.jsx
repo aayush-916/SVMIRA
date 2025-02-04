@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import About from './About'
 import './App.css'
+import ContactForm from './ContactForm'
+import FAQ from './FAQ'
 import OurProcess from './OurProcess'
 import OurServices from './OurServices'
 import Root from './Root'
@@ -16,6 +18,8 @@ function App() {
       <About/>
       <OurProcess/>
       <WhyChooseUs/>
+      <FAQ/>
+      <ContactForm/>
     </>
   )
 }

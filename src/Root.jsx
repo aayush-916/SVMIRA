@@ -1,6 +1,9 @@
 import React from "react";
+import { useState } from "react";
+import BookingModal from "./BookingModal";
 import "./App.css";
 function Root() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div>
       <div class="video-background">
@@ -15,11 +18,15 @@ function Root() {
 <p class="sub-heading">We bring your vision to life with world-class construction solutions, Whether it’s residential, commercial, or industrial projects, we build with integrity and innovation.</p>
 
 
-            <button className="button-85">Get Quotation</button>
+            <button className="button-85 open-modal-btn" onClick={() => setIsModalOpen(true)} >Get Quotation</button>
+            
 
 </div>
 
       </div>
+      <BookingModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+
+
     </div>
   );
 }

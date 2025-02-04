@@ -758,3 +758,472 @@ li {
   }
 }
 
+
+/*********************** FAQ *****************/
+/* FAQ Section */
+.faq-section {
+  background: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.faq-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fb643f;
+}
+
+.faq-description {
+  font-size: 18px;
+  color: #555;
+  margin: 15px 0 40px;
+}
+
+/* FAQ List */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* FAQ Item */
+.faq-item {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* transition: 0.3s ease; */
+}
+
+/* FAQ Question */
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-question h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.faq-icon {
+  font-size: 20px;
+  color: #fb643f;
+}
+
+.faq-icon.open {
+  transform: rotate(180deg);
+}
+
+/* FAQ Answer */
+.faq-answer {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .faq-container {
+    max-width: 100%;
+  }
+}
+
+
+/*********** Contact Form *********/
+/*Form-part starts here*/
+
+
+.form-part{
+  width:100%;
+  background-color:whitesmoke;
+  padding-top:4rem;
+  padding-bottom:2rem;
+  margin-top:3rem;
+}
+
+.form-part .title{
+  width:100%;
+}
+
+.form-part .form{
+  width:82%;
+  margin:0 auto;
+  padding:3rem 0;
+}
+
+input{
+  padding:0.5rem 0;
+  background-color:whitesmoke;
+}
+
+#myname{
+  width:45%;
+  display:inline;
+  margin-bottom:2rem;
+  border:none;
+  border-bottom:1px solid #000000;
+  border-radius:none;
+}
+
+#myemail{
+  width:45%;
+   display:inline;
+   margin-left:4%;
+   border:none;
+  border-bottom:1px solid #000000;
+   border-radius:none;
+}
+
+#myphone{
+  width:45%;
+  display:inline;
+   margin-bottom:2rem;
+     border:none;
+  border-bottom:1px solid #000000;
+   border-radius:none;
+}
+
+#yoursubject{
+  width:45%;
+   display:inline;
+    margin-left:4%;
+      border:none;
+  border-bottom:1px solid #000000;
+}
+
+#yourmessage{
+  width:95%;
+    border:none;
+  border-bottom:1px solid #000000;
+  background-color:whitesmoke;
+}
+
+#yourmessage:focus{
+  outline:none;
+}
+
+input:focus{
+  outline:none;
+}
+
+input::placeholder{
+   position:relative;
+   bottom:0.5rem;
+}
+
+#mybtn{
+  background-color:#d81f72;
+  padding:0.5rem 1rem;
+  color:#fff;
+  border-radius:0.5rem;
+  border:none;
+  margin-top:2rem;
+}
+
+/*Form-part ends here*/
+
+@media (max-width: 768px) {
+
+  #myname{
+    width:100%;
+    display:block;
+}
+
+#myemail{
+     margin-left:0%;
+     width:100%;
+    display:block;
+    margin-bottom:2rem;
+}
+
+#myphone{
+    width:100%;
+    display:block;
+}
+
+#yoursubject{
+     margin-left:0%;
+     width:100%;
+    display:block;
+    margin-bottom:2rem;
+}
+
+#yourmessage{
+    width:100%;
+      border:none;
+    border-bottom:1px solid #000000;
+    background-color:whitesmoke;
+}
+
+#yourmessage:focus{
+    outline:none;
+}
+}
+
+/* ********************Footers *******************/
+
+.footer {
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Centering container properly */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* Center content */
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+/* Ensure sections align properly */
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+  text-align: center;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #fb643f;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fb643f;
+}
+
+/* Gallery Styles */
+.gallery-images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-images img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.gallery-images img:hover {
+  transform: scale(1.1);
+}
+
+/* Quote Button */
+.quote-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #fb643f;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.quote-btn:hover {
+  background: #d63b27;
+}
+
+/* Footer Bottom (Fixed Positioning) */
+.footer-bottom {
+  width: 100%;
+  padding: 15px 10px;
+  background: #111;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.footer-bottom a {
+  color: #fb643f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+.footer-section p a{
+  color: white;
+}
+
+/* Fixing responsiveness */
+@media (max-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+  
+  .footer-section {
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 20px;
+  }
+
+  .gallery-images {
+    justify-content: center;
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+
+/******************** Booking Model **********/
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.model-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Modal Container */
+.modal-container {
+  position: fixed;
+  top: 0%;
+  transform: translate(-0%, -0%);
+  width: 90%;
+  max-width: 450px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  text-align: center;
+}
+
+.msg5{
+  width: 350px;
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  font-size: 1.5rem;
+  color: #fb643f;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Modal Body */
+.modal-body {
+  margin-top: 10px;
+}
+
+
+.modal-body label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px; /* Added bottom margin for spacing */
+  text-align: left; /* Aligns text to the left */
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Submit Button */
+.submit-btn {
+  background: #fb643f;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background: #d63b27;
+}
+
+@media (max-width: 768px) {
+  .msg5{
+    width: 200px;
+  }
+}
