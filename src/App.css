@@ -216,6 +216,7 @@ li {
   }
 }
 /* ............NAV BAR End............................................ */
+
 /* color: #E91E63; */
 
 /* .........Home ........................ */
@@ -1226,5 +1227,41 @@ input::placeholder{
 @media (max-width: 768px) {
   .msg5{
     width: 200px;
+  }
+}
+
+/* *****************Team css */
+
+.team_head{
+  text-align: center;
+}
+.team_con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+
+}
+.team_img{
+  width: 550px;
+  transition: 0.3s ease;
+}
+
+.team_img:hover{
+  scale: 1.03;
+}
+
+
+@media (max-width: 768px) {
+  .team_img{
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .team_img{
+    width: 250px;
   }
 }

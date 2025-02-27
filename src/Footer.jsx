@@ -19,9 +19,10 @@ const Footer = () => {
           viewport={{ once: false }}
         >
           <h3>SVMIRA COSTRUCTION AND DEVELOPERS PRIVATE LIMITED</h3>
-          <p>123, MG Road, Delhi, India</p>
-          <p>📞 <a href="tel:+919876543210">+91 98765 43210</a></p>
-          <p>📧 <a href="mailto:info@xyzconstructions.com">info@xyzconstructions.com</a></p>
+          <p>Saguna more, mainpura, main road, danapur cantt patna 801503</p>
+          <p>📞 <a href="tel:+919709993000">+91 9709993000</a></p>
+          <p>📞 <a href="tel:+919708004545">+91 9708004545</a></p>
+          <p>📧 <a href="mailto:info@svmiraconstructions.com">info@svmiraconstructions.in</a></p>
           <motion.a 
             href="#quote"
             className="quote-btn open-modal-btn"

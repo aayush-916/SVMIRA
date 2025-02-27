@@ -6,6 +6,7 @@ import FAQ from './FAQ'
 import OurProcess from './OurProcess'
 import OurServices from './OurServices'
 import Root from './Root'
+import Team from './Team'
 import WhyChooseUs from './whyChooseUs'
 
 
@@ -19,6 +20,7 @@ function App() {
       <OurProcess/>
       <WhyChooseUs/>
       <FAQ/>
+      <Team/>
       <ContactForm/>
     </>
   )
