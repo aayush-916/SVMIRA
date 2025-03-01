@@ -666,7 +666,7 @@ li {
 /* Icons */
 .process-icon {
   font-size: 50px;
-  color: #e6402a;
+  color: #f39615;
   margin-bottom: 10px;
 }
 
@@ -1262,6 +1262,234 @@ input::placeholder{
 
 @media (max-width: 400px) {
   .team_img{
-    width: 250px;
+    width: 90vw;
   }
+}
+
+/* Counting effect */
+
+.counting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px 20px;
+  background: #f8f9fa;
+}
+
+@media (min-width: 768px) {
+  .counting-container {
+    flex-direction: row;
+  }
+}
+
+.count-card {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.count-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.count-icon {
+  font-size: 40px;
+  color: #f39615;
+  margin-bottom: 10px;
+}
+
+.count-number {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #fb643f;
+  transition: color 0.3s ease-in-out;
+}
+
+.count-card:hover .count-number {
+  color: #fb643f;
+}
+
+.count-text {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: 500;
+  margin-top: 8px;
+  transition: color 0.3s ease-in-out;
+}
+
+.count-card:hover .count-text {
+  color: #222;
+}
+
+/****************** Under construction  *************/
+/* App.css */
+.under-construction-container {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.section-title4 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px; /* Set a fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-top: 15px;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+
+/******************* About Us ************** */
+.about-us-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #f8f9fa, #e3e6ea);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding-top: 72px;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+
+.about-section {
+  background: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-section:hover {
+  transform: scale(1.03);
+}
+
+.about-icon {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+
+.large-icon {
+  color: #ff9800; /* Eye-catching color */
+}
+
+.about-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section ul li {
+  font-size: 1.1rem;
+  padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .about-heading {
+    font-size: 1.8rem;
+  }
+
+  .about-text {
+    font-size: 1.1rem;
+  }
+
+  .about-icon {
+    font-size: 70px;
+  }
+}
+
+.topgap{
+  padding-top: 70px;
+}
+.center{
+  text-align: center;
 }

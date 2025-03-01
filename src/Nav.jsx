@@ -21,20 +21,20 @@ function Nav() {
         <img src='./logo.png' className='brand'></img>
         <h3 className='menu' onClick={handelclick}>☰</h3>
         </div>
-        <ul className={`ull ${toggle ? 'active' : ''}`}>
-          <li onClick={bodyclick}>Home</li>
+        {/* <ul className={`ull ${toggle ? 'active' : ''}`}>
+          <li> <Link to='/' onClick={bodyclick}> Home </Link> </li>
           <li onClick={bodyclick}>About Us</li>
           <li onClick={bodyclick}>Services</li>
           <li onClick={bodyclick}>Projects</li>
           <li onClick={bodyclick}>Contact Us</li>
-        </ul>
-        {/* <ul className={`ull ${toggle ? 'active' : ''}`}>
-          <li><Link to='/' onClick={bodyclick}>Home</Link></li>
-          <li><Link to='/about' onClick={bodyclick}>About Us</Link></li>
-          <li><Link to='/service' onClick={bodyclick}>Services</Link></li>
-          <li><Link to='/portfolio' onClick={bodyclick}>Portfolio</Link></li>
-          <li><Link to='/contact' onClick={bodyclick}>Contact Us</Link></li>
         </ul> */}
+
+        <ul className={`ull ${toggle ? 'active' : ''}`}>
+          <li><Link to='/' onClick={bodyclick}>Home</Link></li>
+          <li><Link to='/AboutUs' onClick={bodyclick}>About Us</Link></li>
+          <li><Link to='/Services' onClick={bodyclick}>Services</Link></li>
+          <li><Link to='/Contact' onClick={bodyclick}>Contact Us</Link></li>
+        </ul>
         
       </nav>
     </div>
