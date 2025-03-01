@@ -22,7 +22,7 @@ const Footer = () => {
           <p>Saguna more, mainpura, main road, danapur cantt patna 801503</p>
           <p>📞 <a href="tel:+919709993000">+91 9709993000</a></p>
           <p>📞 <a href="tel:+919708004545">+91 9708004545</a></p>
-          <p>📧 <a href="mailto:info@svmiraconstructions.com">info@svmiraconstructions.in</a></p>
+          <p>📧 <a href="mailto:svmiraconstructionanddevel@gmail.com"> <span className="emailc">svmiraconstructionanddevel@gmail.com</span></a></p>
           <motion.a 
             href="#quote"
             className="quote-btn open-modal-btn"

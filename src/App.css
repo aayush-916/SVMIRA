@@ -1123,6 +1123,10 @@ input::placeholder{
     justify-content: center;
     overflow: auto;
   }
+
+  .emailc{
+    font-size: 13px;
+  }
   
 }
 

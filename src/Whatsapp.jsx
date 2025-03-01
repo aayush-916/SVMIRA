@@ -5,7 +5,7 @@ function Whatsapp() {
    <>
     <div class="fixed-bottom-right2">
         <a
-          href="mailto:support@leafcode.in"
+          href="tel:+919709993000"
           target="_blank"
           rel="noopener noreferrer"
           class="whatsapp-button"
@@ -15,7 +15,7 @@ function Whatsapp() {
       </div>
       <div class="fixed-bottom-right">
         <a
-          href="https://wa.me/+917542019191"
+          href="https://wa.me/+919709993000"
           target="_blank"
           rel="noopener noreferrer"
           class="whatsapp-button"
