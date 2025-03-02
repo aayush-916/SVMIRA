@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaBuilding, FaHandshake, FaLightbulb } from "react-icons/fa";
 import "./App.css";
@@ -6,6 +6,9 @@ import ContactForm from "./ContactForm";
 import Team from "./Team";
 
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="about-us-container">
       {/* <motion.h2

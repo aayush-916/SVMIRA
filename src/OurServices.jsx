@@ -92,6 +92,17 @@ const OurServices = () => {
             title="Architectural services"
             description="Professional architectural planning and design to create aesthetically appealing, functional, and sustainable structures."
           />
+          <ServiceCard
+            image="./land.avif"
+            title="Real Estate Buying & Selling"
+            description="We deal in the sale and purchase of land, properties, freehold houses, flats, and more, ensuring a seamless and trustworthy experience."
+          />
+          <ServiceCard
+            image="./Vastu.jpg"
+            title="Vastu Consultation"
+            description="Enhance harmony and prosperity with expert Vastu guidance for homes and commercial spaces."
+          />
+
         </div>
 
       </div>

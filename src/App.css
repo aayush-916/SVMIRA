@@ -39,10 +39,11 @@ a{
   margin-top: 2px;
   margin-left: 5rem;
   color: white;
-  width: 15rem;
-  height: 10rem;
+  width: 13rem;
+  height: 8rem;
   position: relative;
-  top: -35px;
+  top: -32px;
+  filter: brightness(1.1);
   }
 li {
   list-style: none;
@@ -128,7 +129,7 @@ li {
     width: 15rem;
     height: 8rem;
     position: relative;
-    top: -26px;
+    top: -31px;
     }
     .ull{
       display: flex;
@@ -145,7 +146,7 @@ li {
     left: 25%; /* Start from the center */
   }
   .brand{
-    margin-top: 10px;
+    margin-top: 2px;
     margin-right: 0rem;
     margin-left: 0px;
     gap: 0px;
@@ -153,7 +154,7 @@ li {
     height: 8rem;
     position: relative;
     right: 30vw;
-    top: -23px;
+    top: -31px;
     
     }
   .mna{
@@ -1433,7 +1434,7 @@ input::placeholder{
   margin: 20px 0;
   border-radius: 12px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
 
 .about-section:hover {

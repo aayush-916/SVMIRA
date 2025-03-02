@@ -1,7 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Briefcase, ShieldCheck, Clock, CheckCircle } from "lucide-react";
-import { useInView } from "react-intersection-observer";
 import "./App.css"; // Import external CSS file
 
 

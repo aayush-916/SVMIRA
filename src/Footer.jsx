@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import BookingModal from "./BookingModal";
+import {Link} from 'react-router-dom'
 import "./App.css"; // Global styles
 
 const Footer = () => {
@@ -44,10 +45,10 @@ const Footer = () => {
         >
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+          <li><Link to='/' >Home</Link></li>
+          <li><Link to='/AboutUs' >About Us</Link></li>
+          <li><Link to='/Services'>Services</Link></li>
+          <li><Link to='/Contact' >Contact Us</Link></li>
           </ul>
         </motion.div>
 
