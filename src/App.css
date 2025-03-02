@@ -1563,7 +1563,7 @@ input::placeholder{
     
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .gallery2-image {
     height: 300px;
     width: 90vw;
