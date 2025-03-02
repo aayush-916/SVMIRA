@@ -1,5 +1,6 @@
 import About from './About'
 import './App.css'
+import CNI from './CNI'
 import ContactForm from './ContactForm'
 import CountingEffect from './CountingEffect'
 import FAQ from './FAQ'
@@ -16,6 +17,7 @@ function Home() {
   return (
     <>
       <Root/>
+      <CNI/>
       <OurServices/>
       <CountingEffect/>
       <About/>

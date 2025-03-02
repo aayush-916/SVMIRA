@@ -62,6 +62,11 @@ const OurServices = () => {
         </motion.p>
 
         <div className="services-grid">
+        <ServiceCard
+            image="./land.avif"
+            title="Real Estate Buying & Selling"
+            description="We deal in the sale and purchase of land, properties, freehold houses, flats, and more, ensuring a seamless and trustworthy experience."
+          />
           <ServiceCard
             image="./Residential.jpg"
             title="Residential Construction"
@@ -91,11 +96,6 @@ const OurServices = () => {
             image="./Architectural.jpeg"
             title="Architectural services"
             description="Professional architectural planning and design to create aesthetically appealing, functional, and sustainable structures."
-          />
-          <ServiceCard
-            image="./land.avif"
-            title="Real Estate Buying & Selling"
-            description="We deal in the sale and purchase of land, properties, freehold houses, flats, and more, ensuring a seamless and trustworthy experience."
           />
           <ServiceCard
             image="./Vastu.jpg"

@@ -33,6 +33,7 @@ function Nav() {
           <li><Link to='/' onClick={bodyclick}>Home</Link></li>
           <li><Link to='/AboutUs' onClick={bodyclick}>About Us</Link></li>
           <li><Link to='/Services' onClick={bodyclick}>Services</Link></li>
+          <li><Link to='/Gallery' onClick={bodyclick}>Gallery</Link></li>
           <li><Link to='/Contact' onClick={bodyclick}>Contact Us</Link></li>
         </ul>
         

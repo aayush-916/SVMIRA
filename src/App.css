@@ -344,6 +344,8 @@ li {
   animation: fadeIn 2s ease-out;
 }
 
+
+
 /* Responsive styles */
 @media (max-width: 768px) {
   /* Reduce font size for smaller screens */
@@ -1497,4 +1499,123 @@ input::placeholder{
 }
 .center{
   text-align: center;
+}
+
+
+/* ***********************Gallery ********************/
+
+.gallery2 {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+  padding-top: 79px;
+}
+
+.gallery2-heading {
+  font-size: 2rem;
+  color: #222;
+}
+
+.gallery2-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.gallery2-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Gallery Item */
+.gallery2-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery2-item:hover {
+  transform: scale(1.05);
+}
+
+/* Image Styling */
+.gallery2-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .gallery2-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .gallery2-image {
+    height: 300px;
+  }
+}
+
+
+/* ****************CNI **********/
+.svm-contact-section {
+  color: black;
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.svm-contact-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.svm-contact-heading {
+  font-size: 2rem;
+  color: #fb643f;
+  margin-bottom: 20px;
+}
+
+.svm-highlight {
+  color: black;
+  font-weight: bold;
+}
+
+.svm-ceo-message {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.svm-contact-info {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.svm-contact-info a {
+  color: #fb643f;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.svm-contact-info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .svm-contact-heading {
+    font-size: 1.8rem;
+  }
+
+  .svm-ceo-message {
+    font-size: 1rem;
+  }
 }
