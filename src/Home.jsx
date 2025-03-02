@@ -1,4 +1,5 @@
 import About from './About'
+import React, { useEffect } from "react";
 import './App.css'
 import CNI from './CNI'
 import ContactForm from './ContactForm'
@@ -13,6 +14,9 @@ import WhyChooseUs from './whyChooseUs'
 
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
