@@ -26,7 +26,7 @@ const CountingEffect = () => {
         <div className="count-card">
           <FaBuilding className="count-icon" />
           <h2 className="count-number">
-            {startCounting && <CountUp start={0} end={20} duration={2.5} />}+
+            {startCounting && <CountUp start={0} end={20} duration={8} />}+
           </h2>
           <p className="count-text">Completed Projects</p>
         </div>
@@ -40,7 +40,7 @@ const CountingEffect = () => {
         <div className="count-card">
           <FaSmile className="count-icon" />
           <h2 className="count-number">
-            {startCounting && <CountUp start={0} end={50} duration={3} />}+
+            {startCounting && <CountUp start={0} end={50} duration={8} />}+
           </h2>
           <p className="count-text">Satisfied Clients</p>
         </div>
@@ -54,7 +54,7 @@ const CountingEffect = () => {
         <div className="count-card">
           <IoIosConstruct className="count-icon" />
           <h2 className="count-number">
-            {startCounting && <CountUp start={0} end={5} duration={2} />}+
+            {startCounting && <CountUp start={0} end={5} duration={6} />}+
           </h2>
           <p className="count-text">Under construction</p>
         </div>
