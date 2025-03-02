@@ -1563,10 +1563,13 @@ input::placeholder{
     
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 367px) {
+  .gallery2-item {
+    width: 80vw;
+  }
+
   .gallery2-image {
     height: 300px;
-    width: 90vw;
     
   }
 }
