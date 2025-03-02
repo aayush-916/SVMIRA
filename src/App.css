@@ -1560,6 +1560,14 @@ input::placeholder{
 
   .gallery2-image {
     height: 300px;
+    
+  }
+}
+@media (max-width: 400px) {
+  .gallery2-image {
+    height: 300px;
+    width: 90vw;
+    
   }
 }
 

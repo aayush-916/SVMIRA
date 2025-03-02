@@ -18,7 +18,6 @@ const CNI = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-         <span className="svm-highlight">Contact Us</span>
         </motion.h2>
 
         <p className="svm-ceo-message">
@@ -28,8 +27,8 @@ const CNI = () => {
         </p>
 
         <div className="svm-contact-info">
-          <p><strong>📞 Phone:</strong> <a href="tel:9709993000">9709993000</a></p>
-          <p><strong>📧 Email:</strong> <a href="mailto:info@svmiraconstruction.com">info@svmiraconstruction.com</a></p>
+          <p><strong>📞 Phone:</strong> <a href="tel:9709993000">+91 9709993000</a></p>
+          <p><strong>📧 Email:</strong> <a href="mailto:sudhirshiv9525@gmail.com">sudhirshiv9525@gmail.com</a></p>
           <p><strong>🌐 Website:</strong> <a href="https://www.svmiraconstruction.in" target="_blank" rel="noopener noreferrer">www.svmiraconstruction.com</a></p>
           <p><strong>📜 CIN:</strong> U41001BR2025PTC072929</p>
         </div>

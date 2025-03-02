@@ -16,9 +16,7 @@ function Root() {
     <span class="highlight">Turn Your Dreams</span> into Reality <span class="highlight">– Built to Perfection</span>.
 </h1>
 <p class="sub-heading">We bring your vision to life with world-class construction solutions, Whether it’s residential, commercial, or industrial projects, we build with integrity and innovation.</p>
-<div className="contact-container">
-  <p className="contact-text">📞 Contact: <span>9709993000</span></p>
-</div>
+
 
 
 
