@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
-import './App.css'
+import './App.css';
 import { motion } from "framer-motion";
 
-const images = [
+const media = [
   "./image/gl9.jpg",
+  "./image/vid1.mp4", 
   "./image/gl10.jpg",
   "./image/gl8.jpg",
   "./image/gl7.jpg",
@@ -16,9 +17,10 @@ const images = [
 ];
 
 const Gallery = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="gallery2">
       <motion.h2
@@ -42,7 +44,7 @@ const Gallery = () => {
       </motion.p>
 
       <div className="gallery2-grid">
-        {images.map((img, index) => (
+        {media.map((item, index) => (
           <motion.div
             key={index}
             className="gallery2-item"
@@ -51,7 +53,18 @@ const Gallery = () => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: false }}
           >
-            <img src={img} alt={`Project ${index + 1}`} className="gallery2-image" />
+            {item.endsWith(".mp4") ? (
+              <video
+                src={item}
+                className="gallery2-video"
+                controls
+                autoPlay
+                loop
+                muted
+              />
+            ) : (
+              <img src={item} alt={`Project ${index + 1}`} className="gallery2-image" />
+            )}
           </motion.div>
         ))}
       </div>
