@@ -28,8 +28,8 @@ const CNI = () => {
 
         <div className="svm-contact-info">
           <p><strong>📞 Phone:</strong> <a href="tel:9709993000">+91 9709993000</a></p>
-          <p><strong>📧 Email:</strong> <a href="mailto:sudhirshiv9525@gmail.com">sudhirshiv9525@gmail.com</a></p>
-          <p><strong>🌐 Website:</strong> <a href="https://www.svmiraconstruction.in" target="_blank" rel="noopener noreferrer">www.svmiraconstruction.in</a></p>
+          <p><strong>📧 Email:</strong> <a href="mailto:svmiraconstructionanddevel@gmail.com">svmiraconstructionanddevel@gmail.com</a></p>
+          <p><strong>🌐 Website:</strong> <a href="https://www.svmira.in" target="_blank" rel="noopener noreferrer">www.svmiraconstruction.in</a></p>
           <p><strong>📜 CIN:</strong> U41001BR2025PTC072929</p>
         </div>
       </div>
